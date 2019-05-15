@@ -30,3 +30,5 @@ function part3(){
 	var cl = document.querySelector('[data-icon="send"]');
 	cl.click();
 }
+
+//written by: Kanish Anand
