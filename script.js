@@ -3,7 +3,7 @@
 part1();
 function part1(){
 	name="John"
-	var x=document.querySelector("[" + "title="+ name + "]");
+	var x=document.querySelector("[" + "title="+'"'+ name+'"'+ "]");
 	var ev=document.createEvent('MouseEvents');
 	ev.initEvent('mousedown',true,true);
 	x.dispatchEvent(ev);
